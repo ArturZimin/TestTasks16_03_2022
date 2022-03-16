@@ -18,24 +18,24 @@ public class Main {
         copyArrayTwoDimensional(createTwoDimensionalArrayRandomNumbers());
 
 
-//        System.out.println(countOnSalaryWeekly(6, 45));
-//
-//        guessTheGame();
-//        findPrimeNumbersUpTo100(100);
-//
-//        double[] arr = new double[10];
-//        arr[0] = 8.9;
-//        arr[1] = 3.5;
-//        arr[2] = 3.5;
-//        arr[3] = 3.5;
-//        arr[4] = 3.5;
-//        arr[5] = 3.3;
-//        arr[6] = 3.5;
-//        arr[7] = 7.2;
-//        arr[8] = 2.7;
-//        arr[9] = 9.5;
-//
-//        System.out.println("\n The average number from the array is : " + findAverageArray(arr));
+        System.out.println(countOnSalaryWeekly(6, 45));
+
+        guessTheGame();
+        findPrimeNumbersUpTo100(100);
+
+        double[] arr = new double[10];
+        arr[0] = 8.9;
+        arr[1] = 3.5;
+        arr[2] = 3.5;
+        arr[3] = 3.5;
+        arr[4] = 3.5;
+        arr[5] = 3.3;
+        arr[6] = 3.5;
+        arr[7] = 7.2;
+        arr[8] = 2.7;
+        arr[9] = 9.5;
+
+        System.out.println("\n The average number from the array is : " + findAverageArray(arr));
 
     }
 

@@ -1,6 +1,6 @@
 package com.company.task6;
 
-public class Check extends Buy{
+public class Check extends Buy {
 
 
     public Check(String name, double price, double weight) {
@@ -8,8 +8,8 @@ public class Check extends Buy{
     }
 
     public static void main(String[] args) {
-        Product product=new Product("lemon",3,1);
-        Buy buy=new Buy("lemon",3,20);
+        Product product = new Product("lemon", 3, 1);
+        Buy buy = new Buy("lemon", 3, 20);
         System.out.println(buy);
     }
 }
