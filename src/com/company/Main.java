@@ -162,6 +162,7 @@ public class Main {
         for (int i = 0; i < arr.length; i++) {
             newArr[i] = arr[i].clone();
         }
+
         return newArr;
 
     }
@@ -174,13 +175,13 @@ public class Main {
                 arr[i][j] = ((int) ((Math.random() * 61) + 20));//от 20-60
             }
         }
-        for (int[] array : arr) {
-            for (int array2 : array
-            ) {
-                System.out.println(array2 + " ");
-            }
-            System.out.println();
-        }
+//        for (int[] array : arr) {
+//            for (int array2 : array
+//            ) {
+//                System.out.println(array2 + " ");
+//            }
+//            System.out.println();
+//        }
         return arr;
     }
 }
